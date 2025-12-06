@@ -136,7 +136,8 @@ if page == "Home":
         """)
         
     with col2:
-        st.image("firenze.webp", use_container_width=True)
+        st.image("firenze-italy-november-11-2024-600nw-2544274771.webp", use_container_width=True)
+
 
         )
         st.markdown("---")
@@ -364,6 +365,7 @@ elif page == "Model Evaluation":
         st.dataframe(metrics_df)
     else:
         st.info("Please run models in 'Forecasting Models' first.")
+
 
 
 
