@@ -143,7 +143,7 @@ if page == "Home":
         st.markdown("""
             - Swarnathara Ramesh  
             - Rajnandani Godage  
-            - Akash Kar Choudary
+            - Akash Kar Choudhury
             """)
 
     # DATA VIEW
@@ -363,6 +363,7 @@ elif page == "Model Evaluation":
         st.dataframe(metrics_df)
     else:
         st.info("Please run models in 'Forecasting Models' first.")
+
 
 
 
