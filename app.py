@@ -26,7 +26,7 @@ st.set_page_config(
 # --------------------------------------------------
 # LOAD DATA
 # --------------------------------------------------
-data = pd.read_csv("binance_crypto_data_file.csv")
+DATA_PATH = "binance_crypto_data_file.csv"
 
 @st.cache_data
 def load_data():
@@ -365,6 +365,7 @@ elif page == "Model Evaluation":
         st.dataframe(metrics_df)
     else:
         st.info("Please run models in 'Forecasting Models' first.")
+
 
 
 
