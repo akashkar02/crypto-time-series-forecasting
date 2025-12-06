@@ -136,9 +136,8 @@ if page == "Home":
         """)
         
     with col2:
-        st.image(
-            r"D:\amdox\firenze-italy-november-11-2024-600nw-2544274771.webp",
-            use_container_width=True
+        st.image("firenze.webp", use_container_width=True)
+
         )
         st.markdown("---")
         st.markdown("### <span style='color:#ffcc00;'>Team Members</span>", unsafe_allow_html=True)
@@ -365,6 +364,7 @@ elif page == "Model Evaluation":
         st.dataframe(metrics_df)
     else:
         st.info("Please run models in 'Forecasting Models' first.")
+
 
 
 
