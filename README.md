@@ -19,4 +19,10 @@ crypto-forecasting-streamlit/
 │── requirements.txt
 │── README.md
 
+
+👥 Team Members
+- Swarnathara Ramesh
+- Akash Kar Choudary
+- Rajnandani Godage
+
 **
